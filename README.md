@@ -1,40 +1,45 @@
 # My Custom Dockutil
 
-INTRODUCTION 
+**INTRODUCTION**
 
 Hi there !
 
-I'm new to Jamf Pro and Github => (September 2022).
+I'm new at Jamf Pro and Github => (September 2022).
 
-For business reasons, I decided to move our company's macs from Azure AD to Jamf Pro.
+For professional reasons, i decided to move our corporate macs from Azure AD to Jamf Pro.
 
-So I spent time training myself to understand how Jamf works and to be able to start deploying our macs with this solution.
-I still have some issues with JamfConnect and Unlock but that should be fixed soon.
+So I spent a lot of time training to understand how Jamf works and to be able to start rolling out our Macs with this solution.
+I still have some problems with JamfConnect and Unlock but this should be resolved soon.
 
-I would like to thanks @kcrawford for dockutil, its a great app ! https://github.com/kcrawford/dockutil
+I would like to thanks @kcrawford for dockutil, its a great app ! https://github.com/kcrawford/dockutil and the Github community for sharing code and experience. and also bloger like : 
 
-After testing different configurations and scripts, I ended up not finding the one that works on 
+ - https://scriptingosx.com/
+ - https://sachinparmarblog.com/
+ - https://travellingtechguy.blog/ 
+ - And of course https://community.jamf.com/ ;) 
 
-MY ENVIRONMENT :
+After trying different configurations and scripts, which didn't work for me, I decided to share with you my custom configuration which works in my environment.
 
-Jamf Pro Cloud version 10.42
-Apple M1 version 12.6.1
-Dockutil version 3.0.2
+**MY ENVIRONMENT**
 
-I deploy Dockutil & office in PreStage Enrollments then I launch my strategies.
+ - Jamf Pro Cloud version 10.42
+ - Apple M1 version 12.6.1
+ - Dockutil version 3.0.2
 
-THE GOAL : 
+I deploy Dockutil & Microsoft Office in PreStage Enrollments then I launch my strategies.
+
+**THE GOAL**
 
 - After deploying applications such as Office, remove the default dock and set the corporate one, but allow the user to modify it afterwards.
 
-LICENSE
+**LICENSE**
 
  - Like i said i new on Github so i don't what's i should input on licence, you can use my code has you want and customize it. 
 
-CHANGELOG
+**CHANGELOG**
 ......
 
-Notes: 
+**NOTES**
 I intentionally added several custom folders so that you can see the render and remove what you want afterwards.
 I don't know if we can customize the url icons or say to open them with google for example.
 Feel free to share your feedback or suggestions in the comments.
