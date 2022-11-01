@@ -1,6 +1,7 @@
-# -dockutil
+# My Custom Dockutil
 
-INTRODUCTION
+INTRODUCTION 
+
 Hi there !
 
 I'm new to Jamf Pro and Github => (September 2022).
@@ -12,17 +13,23 @@ I still have some issues with JamfConnect and Unlock but that should be fixed so
 
 I would like to thanks @kcrawford for dockutil, its a great app ! https://github.com/kcrawford/dockutil
 
-After testing different configurations and scripts, I ended up not finding the one that works on my environment:
+After testing different configurations and scripts, I ended up not finding the one that works on 
+
+MY ENVIRONMENT :
 
 Jamf Pro Cloud version 10.42
 Apple M1 version 12.6.1
 Dockutil version 3.0.2
 
-I deploy Dockutil in service with office then I launch my strategies.
+I deploy Dockutil & office in PreStage Enrollments then I launch my strategies.
+
+THE GOAL : 
+
+- After deploying applications such as Office, remove the default dock and set the corporate one, but allow the user to modify it afterwards.
 
 LICENSE
 
-Like i said i new on Github so i don't what's i should input on licence, you can use my code has you want and customize it. 
+ - Like i said i new on Github so i don't what's i should input on licence, you can use my code has you want and customize it. 
 
 CHANGELOG
 ......
