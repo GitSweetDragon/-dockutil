@@ -2,6 +2,12 @@
 
 **INTRODUCTION**
 
+This script is an example how to configures users docks using `docktutil`
+
+**Requirements**
+dockutil Version 3.0.2 or higher installed to /usr/local/bin/
+_source `dockutil` https://github.com/kcrawford/dockutil/_
+
 Hi there !
 
 I'm new at Jamf Pro and Github => (September 2022).
@@ -18,7 +24,8 @@ I would like to thanks @kcrawford for dockutil, its a great app ! https://github
  - https://travellingtechguy.blog/ 
  - And of course https://community.jamf.com/ ;) 
 
-After trying different configurations and scripts, which didn't work for me, I decided to share with you my custom configuration which works in my environment.
+After trying different configurations and scripts, which didn't work for me, Like setDock-addToDock.sh from [@mvdbent](https://github.com/mvdbent) but I constantly had question marks even though the apps were installed fine.  I decided to share with you my custom configuration which works in my environment.
+
 
 **MY ENVIRONMENT**
 
@@ -44,3 +51,5 @@ I intentionally added several custom folders so that you can see the render and 
 I don't know if we can customize the url icons or say to open them with google for example.
 Feel free to share your feedback or suggestions in the comments.
 thank you for your indulgence in advance.
+
+
